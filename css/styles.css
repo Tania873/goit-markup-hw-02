@@ -12,6 +12,7 @@ body {
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
@@ -30,13 +31,12 @@ ul {
   text-decoration: none;
 }
 .logo-left {
-  color: #2196f3;
+  color: var(--accent-colour);
 }
 .site-nav .link {
   color: var(--primary-text-color);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -52,7 +52,6 @@ ul {
   color: #757575;
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -90,22 +89,18 @@ ul {
 
 /* Особенности */
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 
-.feature .feature-title {
-  font-weight: 700;
-  font-size: 14px;
+.features .feature-title {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.feature .feature-describe {
+.features .feature-describe {
   color: var(--paragraph-text-color);
 
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -130,7 +125,7 @@ ul {
   background-color: #2f303a;
 }
 .logo-footer {
-  color: #ffffff;
+  color: var(--white-color);
 
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -139,14 +134,12 @@ ul {
   text-decoration: none;
 }
 .logo-footer .logo-left {
-  color: #2196f3;
+  color: var(--accent-colour);
 }
 .footer .address {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  text-decoration: none;
 }
 .address-sity {
   color: var(--white-color);
@@ -176,18 +169,17 @@ ul {
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--primary-bg-color);
+  color: var(--white-color);
 }
 .portfolio-button.current {
   background-color: var(--primary-bg-color);
   color: var(--white-color);
 }
 .project-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
 }
 .project-describe {
   color: var(--paragraph-text-color);
